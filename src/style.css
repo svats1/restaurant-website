@@ -1,0 +1,12 @@
+body {
+    width: 100vw;
+    height: auto;
+    background-image: url(./media/background.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+}
+
+/* #background {
+    width: 100vw;
+} */
