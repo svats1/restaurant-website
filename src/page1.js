@@ -4,9 +4,9 @@ export default function breads() {
   page.innerHTML = "";
 
   header.textContent = "Breads!";
-  item1.textContent = "country loaf";
-  item2.textContent = "milk toast";
-  item3.textContent = "sourdough";
+  //   item1.textContent = "country loaf";
+  //   item2.textContent = "milk toast";
+  //   item3.textContent = "sourdough";
 
   page.appendChild(header);
   page.appendChild(container);
