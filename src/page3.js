@@ -1,4 +1,4 @@
-import { container, header, item1, item2, item3 } from "./pageItems";
+import { header, page, container, item1, item2, item3 } from "./pageItems";
 
 export default function pastries() {
   content.innerHTML = "";
@@ -9,6 +9,8 @@ export default function pastries() {
   item2.textContent = "macarons";
   item3.textContent = "mille feuille";
 
-  content.appendChild(header);
-  content.appendChild(container);
+  page.appendChild(header);
+  page.appendChild(container);
+
+  content.appendChild(page);
 }

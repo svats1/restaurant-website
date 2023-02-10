@@ -31,3 +31,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.copy {
+    font-size: 36px;
+}
