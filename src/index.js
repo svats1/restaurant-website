@@ -4,31 +4,35 @@ import breads from "./page1";
 import croissants from "./page2";
 import pastries from "./page3";
 
+const body = document.querySelector("body");
+
 const home = document.createElement("button");
 const breadList = document.createElement("button");
 const croissantList = document.createElement("button");
 const pastryList = document.createElement("button");
-// const container = document.createElement('div')
 
+setHome();
+
+// Arm all buttons
 home.addEventListener("click", setHome);
 breadList.addEventListener("click", breads);
 croissantList.addEventListener("click", croissants);
 pastryList.addEventListener("click", pastries);
 
-// const content = document.querySelector('#content')
-const body = document.querySelector("body");
-
+// Set text content for each button
 home.textContent = "HOME";
-home.style.padding = "10px";
-
 breadList.textContent = "BREADS";
-breadList.style.padding = "10px";
-
 croissantList.textContent = "CROISSANTS";
-croissantList.style.padding = "10px";
-
 pastryList.textContent = "PASTRIES";
-pastryList.style.padding = "10px";
+
+// All buttons can look the same
+home.className =
+  breadList.className =
+  croissantList.className =
+  pastryList.className =
+    "button";
+
+// Add buttons to body
 
 body.appendChild(home);
 body.appendChild(breadList);
