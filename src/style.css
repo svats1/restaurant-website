@@ -5,14 +5,9 @@ body {
 
 #content {
     background-color: white;
-    /* position: relative;
-    left: 50%; */
-    /* display: flex;
-    justify-content: center; */
     height: 50vh;
     padding: 0 10vw 0 10vw;
     margin: 0 10vw 0 10vw;
-    /* width: 60vh; */
 }
 
 .container {

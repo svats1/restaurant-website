@@ -1,5 +1,5 @@
+import { header } from "./pageItems";
 const content = document.querySelector("#content");
-const header = document.createElement("h2");
 const copy = document.createElement("div");
 
 export default function setHome() {
