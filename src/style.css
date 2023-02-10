@@ -6,3 +6,15 @@ body {
 #content {
     background-color: white;
 }
+
+.container {
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.item {
+    flex-basis: 10vw;
+    border: 2px solid black;
+    border-radius: 5px;
+}
