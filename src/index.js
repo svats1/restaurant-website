@@ -13,6 +13,7 @@ const croissantList = document.createElement("button");
 const pastryList = document.createElement("button");
 
 const menu = document.createElement("div");
+menu.className = "menu";
 
 // Show on loadup
 setHome();
@@ -37,15 +38,10 @@ home.className =
     "button";
 
 // Add buttons to body
-
-menu.className = "menu";
-
 menu.appendChild(home);
 menu.appendChild(breadList);
 menu.appendChild(croissantList);
 menu.appendChild(pastryList);
 
+// Add menu before content
 body.insertBefore(menu, content);
-
-// content.appendChild(header);
-// content.appendChild(copy);
