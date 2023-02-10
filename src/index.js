@@ -5,12 +5,17 @@ import croissants from "./page2";
 import pastries from "./page3";
 
 const body = document.querySelector("body");
+const content = document.querySelector("#content");
 
 const home = document.createElement("button");
 const breadList = document.createElement("button");
 const croissantList = document.createElement("button");
 const pastryList = document.createElement("button");
 
+const menu = document.createElement("div");
+const page = document.createElement("section");
+
+// Show on loadup
 setHome();
 
 // Arm all buttons
@@ -34,7 +39,11 @@ home.className =
 
 // Add buttons to body
 
-body.appendChild(home);
-body.appendChild(breadList);
-body.appendChild(croissantList);
-body.appendChild(pastryList);
+menu.className = "menu";
+
+menu.appendChild(home);
+menu.appendChild(breadList);
+menu.appendChild(croissantList);
+menu.appendChild(pastryList);
+
+body.insertBefore(menu, content);
