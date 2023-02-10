@@ -1,4 +1,3 @@
-// import "./pageItems";
 import { container, item1, item2, item3 } from "./pageItems";
 
 export default function breads() {
