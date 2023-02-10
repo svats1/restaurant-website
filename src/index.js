@@ -13,7 +13,6 @@ const croissantList = document.createElement("button");
 const pastryList = document.createElement("button");
 
 const menu = document.createElement("div");
-const page = document.createElement("section");
 
 // Show on loadup
 setHome();
@@ -47,3 +46,6 @@ menu.appendChild(croissantList);
 menu.appendChild(pastryList);
 
 body.insertBefore(menu, content);
+
+// content.appendChild(header);
+// content.appendChild(copy);
