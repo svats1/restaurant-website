@@ -8,9 +8,6 @@ export default function breads() {
   item2.textContent = "milk toast";
   item3.textContent = "sourdough";
 
-  //   content.appendChild(header);
-  //   content.appendChild(container);
-
   page.appendChild(header);
   page.appendChild(container);
 
