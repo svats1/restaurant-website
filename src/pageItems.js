@@ -16,7 +16,7 @@ export class Item {
     itemTitle.className = "item-title";
     itemDesc.className = "item-desc";
 
-    // itemPicture.style.backgroundImage = `url(${picture})`;
+    itemPicture.style.backgroundImage = `url(${picture})`;
     itemTitle.textContent = title;
     itemDesc.textContent = desc;
 
