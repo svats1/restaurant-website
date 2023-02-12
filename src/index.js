@@ -25,10 +25,10 @@ croissantList.addEventListener("click", croissants);
 pastryList.addEventListener("click", pastries);
 
 // Set text content for each button
-home.textContent = "HOME";
-breadList.textContent = "BREADS";
-croissantList.textContent = "CROISSANTS";
-pastryList.textContent = "PASTRIES";
+home.textContent = "Home";
+breadList.textContent = "Breads";
+croissantList.textContent = "Croissants";
+pastryList.textContent = "Pastries";
 
 // All buttons can look the same
 home.className =
