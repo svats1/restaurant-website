@@ -11,17 +11,17 @@ export default function pastries() {
 
   createItem(
     `${image1}`,
-    "Berry Tart",
-    "A berry tart is a delicious dessert that features a flaky pastry crust filled with a sweet and tangy berry filling. The tart can be served either warm or cold, and is usually topped with a dollop of sweetened whipped cream. The berries used to fill the tart can be either fresh or frozen, and commonly include strawberries, raspberries, blueberries, and blackberries."
+    "Berry Tart - $4",
+    "A berry tart is a delicious dessert that features a flaky pastry crust filled with a sweet and tangy berry filling. The tart can be served either warm or cold, and is usually topped with a dollop of sweetened whipped cream. The berries used to fill the tart commonly include strawberries, raspberries, blueberries, and blackberries."
   );
   createItem(
     `${image2}`,
-    "Macarons",
+    "Macarons - $12/doz",
     "A macaron is a small round meringue-based French confection made with egg whites, sugar, almond powder or ground almond, and food colouring. Macarons are typically filled with butter cream, jam, or ganache and have a crisp shell and a soft, chewy interior. They are often served as a dessert or snack."
   );
   createItem(
     `${image3}`,
-    "Mille Feuille",
+    "Mille Feuille - $5",
     "A mille-feuille is a French pastry composed of three layers of puff pastry alternating with two layers of pastry cream. It is often topped with a layer of icing and garnished with chopped nuts or candied fruit. It is a popular dessert in France and other parts of Europe, and is sometimes referred to as a Napoleon."
   );
 
