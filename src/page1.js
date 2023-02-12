@@ -12,17 +12,17 @@ export default function breads() {
   createItem(
     `${image1}`,
     "Country Loaf",
-    "A country loaf is a type of bread that is rustic in nature. It is often made from a combination of white and whole-wheat flours and is typically leavened with yeast. The dough is formed into a round shape and is decorated with various patterns, such as a cross-hatch pattern on top. Country loaves are often baked in a wood-fired oven, giving them a unique flavor and texture. This type of bread is usually dense and has a hearty flavor."
+    "A country loaf is a type of bread that is rustic in nature. It is often made from a combination of white and whole-wheat flours and is typically leavened with yeast. Country loaves are often baked in a wood-fired oven, giving them a unique flavor and texture. This type of bread is usually dense and has a hearty flavor."
   );
   createItem(
     `${image2}`,
-    "Milk Toast",
+    "Milk Bread",
     "Milk bread is a soft and sweet white bread made with milk, sugar, butter, and flour. It is usually made with all-purpose flour, giving it a light and fluffy texture. Milk bread is often used for toast and sandwiches, but it can also be enjoyed as a snack or dessert. The addition of milk makes it richer and moister than other white breads."
   );
   createItem(
     `${image3}`,
     "Sourdough",
-    "Sourdough is a type of bread that is made with a fermented dough starter, made with flour and water. It is known for its tangy, chewy texture and complex flavor. The starter, also known as a levain, is made from a mixture of flour and water, and is allowed to ferment for several days. This sourdough starter provides the leavening for the bread and gives it its distinctive flavor."
+    "Sourdough is a type of bread that is made with a fermented dough starter, made with flour and water. It is known for its tangy, chewy texture and complex flavor. The starter is made from a mixture of flour and water, and is allowed to ferment for several days. This sourdough starter provides the leavening for the bread and gives it its distinctive flavor."
   );
 
   page.appendChild(header);
