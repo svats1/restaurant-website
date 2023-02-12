@@ -2,7 +2,7 @@ import "./style.css";
 import setHome from "./loadpage";
 import breads from "./page1";
 import croissants from "./page2";
-// import pastries from "./page3";
+import pastries from "./page3";
 
 const body = document.querySelector("body");
 const content = document.querySelector("#content");
@@ -22,13 +22,13 @@ setHome();
 home.addEventListener("click", setHome);
 breadList.addEventListener("click", breads);
 croissantList.addEventListener("click", croissants);
-// pastryList.addEventListener("click", pastries);
+pastryList.addEventListener("click", pastries);
 
 // Set text content for each button
 home.textContent = "HOME";
 breadList.textContent = "BREADS";
 croissantList.textContent = "CROISSANTS";
-// pastryList.textContent = "PASTRIES";
+pastryList.textContent = "PASTRIES";
 
 // All buttons can look the same
 home.className =
@@ -41,7 +41,7 @@ home.className =
 menu.appendChild(home);
 menu.appendChild(breadList);
 menu.appendChild(croissantList);
-// menu.appendChild(pastryList);
+menu.appendChild(pastryList);
 
 // Add menu before content
 body.insertBefore(menu, content);
