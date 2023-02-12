@@ -1,15 +1,20 @@
-// import { header, page, container, item1, item2, item3 } from "./pageItems";
+import { header, page, container, createItem } from "./pageItems";
+import image1 from "../media/butter-croissant.jpeg";
+import image2 from "../media/almond-croissant.jpeg";
+import image3 from "../media/pain-au-chocolat.jpeg";
 
-// export default function croissants() {
-//   page.innerHTML = "";
+export default function croissants() {
+  page.innerHTML = "";
+  container.innerHTML = "";
 
-//   header.textContent = "Croissants!";
-//   // item1.textContent = "butter croissant";
-//   // item2.textContent = "almond croissant";
-//   // item3.textContent = "pain au chocolat";
+  header.textContent = "Croissants";
 
-//   page.appendChild(header);
-//   page.appendChild(container);
+  createItem(`${image1}`, "butter croissant", "The classic");
+  createItem(`${image2}`, "almond croissant", "The fancy one");
+  createItem(`${image3}`, "pain au chocolat", "The best one");
 
-//   content.appendChild(page);
-// }
+  page.appendChild(header);
+  page.appendChild(container);
+
+  content.appendChild(page);
+}
