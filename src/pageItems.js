@@ -2,30 +2,26 @@ export const page = document.createElement("section");
 export const header = document.createElement("h1");
 export const container = document.createElement("div");
 
-export class Item {
-  constructor(picture, title, desc) {
-    // (this.picture = picture), (this.title = title), (this.desc = desc);
+export function createItem(picture, title, desc) {
+  const item = document.createElement("div");
+  const itemPicture = document.createElement("div");
+  const itemTitle = document.createElement("div");
+  const itemDesc = document.createElement("div");
 
-    const item = document.createElement("div");
-    const itemPicture = document.createElement("div");
-    const itemTitle = document.createElement("div");
-    const itemDesc = document.createElement("div");
+  item.className = "item";
+  itemPicture.className = "item-picture";
+  itemTitle.className = "item-title";
+  itemDesc.className = "item-desc";
 
-    item.className = "item";
-    itemPicture.className = "item-picture";
-    itemTitle.className = "item-title";
-    itemDesc.className = "item-desc";
+  itemPicture.style.backgroundImage = `url(${picture})`;
+  itemTitle.textContent = title;
+  itemDesc.textContent = desc;
 
-    itemPicture.style.backgroundImage = `url(${picture})`;
-    itemTitle.textContent = title;
-    itemDesc.textContent = desc;
+  item.appendChild(itemPicture);
+  item.appendChild(itemTitle);
+  item.appendChild(itemDesc);
 
-    item.appendChild(itemPicture);
-    item.appendChild(itemTitle);
-    item.appendChild(itemDesc);
-
-    container.appendChild(item);
-  }
+  container.appendChild(item);
 }
 
 // Set class names
