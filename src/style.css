@@ -7,17 +7,18 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-top: 2vh;
 }
 
 .button {
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
-    background-color: burlywood;
+    background-color: rgb(223, 174, 108);
     border: 2px solid brown;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 800;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     font-family: 'Archivo', sans-serif;
 }
 
