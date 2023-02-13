@@ -75,6 +75,7 @@ body {
 
 .item-picture {
     box-sizing: border-box;
+    position: inherit;
     height: 55%;
     background-size: cover;
     border-radius: 10px;
@@ -83,6 +84,7 @@ body {
 }
 
 .item-title {
+    position: inherit;
     height: 10%;
     font-size: 32px;
     text-align: center;
@@ -91,6 +93,7 @@ body {
 }
 
 .item-desc {
+    position: inherit;
     background-color: rgba(255, 172, 71, 0.5);
     height: 35%;
     padding: 25px;
