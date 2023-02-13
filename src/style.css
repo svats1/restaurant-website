@@ -63,7 +63,8 @@ body {
 
 .item {
     flex-basis: 20vw;
-    min-height: 75vh;
+    height: auto;
+    min-height: 650px;
     min-width: 350px;
     border: 2px solid white;
     border-radius: 10px;
