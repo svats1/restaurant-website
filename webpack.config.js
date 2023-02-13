@@ -1,15 +1,6 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development",
-  devtool: "source-map",
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: "Bakery Icon",
-      favicon: "./media/icons8-bakery.png",
-    }),
-  ],
   entry: "./src/index.js",
   output: {
     filename: "main.js",
